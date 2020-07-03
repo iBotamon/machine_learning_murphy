@@ -30,3 +30,12 @@ cf. 画像処理における次元削減 -> 15-5
 cf. graphical lasso -> 26-7
 
 # 1-4. Some basic concepts in machine learning
+
+- ノンパラメトリックモデルの例
+    - k-近傍法
+- 次元の呪い
+- パラメトリックモデルの例
+    - 線形回帰
+    - ロジスティック回帰
+- 過学習
+- モデル選択
