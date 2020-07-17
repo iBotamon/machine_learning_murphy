@@ -69,5 +69,5 @@
 - 交差エントロピー cross entropy
     - <img src="https://latex.codecogs.com/gif.latex?\mathbb{KL}(p,q)=-\sum_{k}p(X=k)\log(q(X=k))" /> 
 - KLダイバージェンス KL divergence
-    - <img src="https://latex.codecogs.com/gif.latex?\mathbb{KL}(p||q)=\sum_{k}p(X=k)\log\frac{p(X=k)}{q(X=k)}" /> <img src="https://latex.codecogs.com/gif.latex?=\sum_{k}p(X=k)\log(p(X=k))-\sum_{k}p(X=k)\log(q(X=k))=-\mathbb{H}(p)+\mathbb{H}(p,q)" /> 
+    - <img src="https://latex.codecogs.com/gif.latex?\mathbb{KL}(p||q)=\sum_{k}p(X=k)\log\frac{p(X=k)}{q(X=k)}=\sum_{k}p(X=k)\log(p(X=k))-\sum_{k}p(X=k)\log(q(X=k))=-\mathbb{H}(p)+\mathbb{H}(p,q)" /> 
 - 相互情報量 mutual information
