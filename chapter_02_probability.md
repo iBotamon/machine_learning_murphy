@@ -57,4 +57,10 @@
 - 中心極限定理 central limit theorem
 
 # 2-7. Monte carlo approximation
+- 確率変数 <img src="https://latex.codecogs.com/gif.latex?X" /> の確率密度関数 
+ <img src="https://latex.codecogs.com/gif.latex?f(X)" /> を, 多数のサンプルによって近似する方法.
+- <img src="https://latex.codecogs.com/gif.latex?S" /> 個のサンプルを <img src="https://latex.codecogs.com/gif.latex?x_{1},...,x_{S}" /> のように生成したとき, <img src="https://latex.codecogs.com/gif.latex?f(X)" /> をその経験分布 <img src="https://latex.codecogs.com/gif.latex?\{f(x_{s})\}_{s=1}^{S}" /> によって近似する.
 # 2-8. Information theory
+- エントロピー Entropy
+- KLダイバージェンス KL divergence
+- 相互情報量 mutual information
