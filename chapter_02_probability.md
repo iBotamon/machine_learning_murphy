@@ -37,8 +37,24 @@
     - コーシー分布 Cauchy distribution (t分布で自由度が1の場合)
 - ラプラス分布 Laplace distribution <img src="https://latex.codecogs.com/gif.latex?\mathrm{Lap}(x|\mu,b)=\frac{1}{2b}\exp{\left(-\frac{|x-\mu|}{b}\right)}" />
 - ガンマ分布
+    - 指数分布 exponential distribution
+    - アーラン分布 Erlang distribution
+    - カイ二乗分布 chi-squared distribution
+- ベータ分布 Beta distribution
+- パレート分布 Pareto distribution
 
 # 2-5. Joint probability distributions
+- 共分散 covariance
+- 多変量ガウス分布 multivariate Gaussian
+- 多変量t分布 multivariate Student t distribution
+- ディリクレ分布 Dirichlet distribution
+
 # 2-6. Transformations of random variables
+- Ax+bの期待値 (線形性)
+- Ax+bの共分散
+- 一般的な変数変換
+    - Jacobianを掛ける: <img src="https://latex.codecogs.com/gif.latex?p_{y}(\mathbf{y})=p_{x}(\mathbf{x})|\det{\mathbf{J}_{\mathbf{y}\to\mathbf{x}}}|" />
+- 中心極限定理 central limit theorem
+
 # 2-7. Monte carlo approximation
 # 2-8. Information theory
