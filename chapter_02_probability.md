@@ -59,7 +59,9 @@
 # 2-7. Monte carlo approximation
 - 確率変数 <img src="https://latex.codecogs.com/gif.latex?X" /> の確率密度関数 
  <img src="https://latex.codecogs.com/gif.latex?f(X)" /> を, 多数のサンプルによって近似する方法.
-- <img src="https://latex.codecogs.com/gif.latex?S" /> 個のサンプルを <img src="https://latex.codecogs.com/gif.latex?x_{1},...,x_{S}" /> のように生成したとき, <img src="https://latex.codecogs.com/gif.latex?f(X)" /> をその経験分布 <img src="https://latex.codecogs.com/gif.latex?\{f(x_{s})\}_{s=1}^{S}" /> によって近似する.
+- つまり, ある入力 <img src="https://latex.codecogs.com/gif.latex?x" /> に対して確率値 <img src="https://latex.codecogs.com/gif.latex?y=f(x)" /> が返ってくるとき, <img src="https://latex.codecogs.com/gif.latex?(x,y)" /> の組を多数得ることによって<img src="https://latex.codecogs.com/gif.latex?f" /> を近似したい.
+- そこで, <img src="https://latex.codecogs.com/gif.latex?S" /> 個のサンプルを <img src="https://latex.codecogs.com/gif.latex?x_{1},...,x_{S}" /> のように生成する. ただしサンプルは確率分布 <img src="https://latex.codecogs.com/gif.latex?x_{s}\sim p_{\mathrm{rand}}" /> に従うとする. このとき, <img src="https://latex.codecogs.com/gif.latex?f(X)" /> をその経験分布 <img src="https://latex.codecogs.com/gif.latex?\{f(x_{s})\}_{s=1}^{S}" /> によって近似する.
+
 # 2-8. Information theory
 - エントロピー Entropy
 - KLダイバージェンス KL divergence
