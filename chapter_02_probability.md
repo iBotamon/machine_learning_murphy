@@ -65,5 +65,6 @@
 # 2-8. Information theory
 - エントロピー Entropy
     - <img src="https://latex.codecogs.com/gif.latex?\mathbb{H}(X)=-\sum_{k}p(X=k)\log(p(X=k))" /> 
+    - <img src="https://latex.codecogs.com/gif.latex?X" /> のとりうる値が2種類の場合は <img src="https://latex.codecogs.com/gif.latex?\mathbb{H}(X)=-(p(X=1)\log(p(X=1))+p(X=0)\log(p(X=0)))" /> などのような binary entropy functionになる.
 - KLダイバージェンス KL divergence
 - 相互情報量 mutual information
