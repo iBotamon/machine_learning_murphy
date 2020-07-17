@@ -35,8 +35,8 @@
         - <img src="https://latex.codecogs.com/gif.latex?\frac{1}{2}\left(1+\mathrm{erf}\left(\frac{z}{\sqrt{2}}\right)\right)" /> のようにも表現できる. erfは誤差関数
 - t分布 Student t distribution
     - コーシー分布 Cauchy distribution (t分布で自由度が1の場合)
-- ラプラス分布 Laplace distribution
-
+- ラプラス分布 Laplace distribution <img src="https://latex.codecogs.com/gif.latex?\mathrm{Lap}(x|\mu,b)=\frac{1}{2b}\exp{\left(-\frac{|x-\mu|}{b}\right)}" />
+- ガンマ分布
 
 # 2-5. Joint probability distributions
 # 2-6. Transformations of random variables
