@@ -32,7 +32,7 @@
 - ガウス分布 Gaussian distribution
     - ガウス分布の精度 precision
     - ガウス分布の累積密度関数
-        - <img src="https://latex.codecogs.com/gif.latex?\frac{1}{2}\left(1+\mathrm{erf}\left(\frac{z}{\sqrt{2}}\right)\right)" />1/2 (1 + erf(z/√2)) のようにも表現できる. erfは誤差関数
+        - <img src="https://latex.codecogs.com/gif.latex?\frac{1}{2}\left(1+\mathrm{erf}\left(\frac{z}{\sqrt{2}}\right)\right)" /> のようにも表現できる. erfは誤差関数
 - t分布 Student t distribution
     - コーシー分布 Cauchy distribution (t分布で自由度が1の場合)
 - ラプラス分布 Laplace distribution
