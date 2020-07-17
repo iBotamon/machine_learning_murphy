@@ -73,4 +73,4 @@
 - 相互情報量 mutual information
     - <img src="https://latex.codecogs.com/gif.latex?\mathbb{I}(X;Y)=\mathbb{KL}(p(X,Y)||p(X)p(Y))=\mathbb{H}(X)-\mathbb{H}(X|Y)=\mathbb{H}(Y)-\mathbb{H}(Y|X)" /> 
 - PMI pointwise mutual information
-    - <img src="https://latex.codecogs.com/gif.latex?\mathbb{PMI}(x,y)=\log\frac{p(x,y)}{p(x)p(y)}=\log\frac{p(x|y)}{p(x)}=\log\frac{p(y|x)}{p(y)}" /> 
+    - <img src="https://latex.codecogs.com/gif.latex?\mathrm{PMI}(x,y)=\log\frac{p(x,y)}{p(x)p(y)}=\log\frac{p(x|y)}{p(x)}=\log\frac{p(y|x)}{p(y)}" /> 
