@@ -66,5 +66,8 @@
 - エントロピー Entropy
     - <img src="https://latex.codecogs.com/gif.latex?\mathbb{H}(X)=-\sum_{k}p(X=k)\log(p(X=k))" /> 
     - <img src="https://latex.codecogs.com/gif.latex?X" /> のとりうる値が2種類の場合は <img src="https://latex.codecogs.com/gif.latex?\mathbb{H}(X)=-(p(X=1)\log(p(X=1))+p(X=0)\log(p(X=0)))" /> などのような binary entropy functionになる.
+- 交差エントロピー cross entropy
+    - <img src="https://latex.codecogs.com/gif.latex?\mathbb{KL}(p,q)=-\sum_{k}p(X=k)\log(q(X=k))" /> 
 - KLダイバージェンス KL divergence
+    - <img src="https://latex.codecogs.com/gif.latex?\mathbb{KL}(p||q)=\sum_{k}p(X=k)\log\frac{p(X=k)}{q(X=k)}=\sum_{k}p(X=k)\log(p(X=k)) - \sum_{k}p(X=k)\log(q(X=k)) = -\mathbb{H}(p) + \mathbb{H}(p,q)" /> 
 - 相互情報量 mutual information
