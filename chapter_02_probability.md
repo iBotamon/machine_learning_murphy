@@ -71,4 +71,6 @@
 - KLダイバージェンス KL divergence
     - <img src="https://latex.codecogs.com/gif.latex?\mathbb{KL}(p||q)\\=\sum_{k}p(X=k)\log\frac{p(X=k)}{q(X=k)}\\=\sum_{k}p(X=k)\log(p(X=k))-\sum_{k}p(X=k)\log(q(X=k))\\=-\mathbb{H}(p)+\mathbb{H}(p,q)" /> 
 - 相互情報量 mutual information
-    - <img src="https://latex.codecogs.com/gif.latex?\mathbb{I}(X;Y)\\=\mathbb{KL}(p(X,Y)||p(X)p(Y))\\=\mathbb{H}(X)-\mathbb{X}(X|Y)=\mathbb{H}(Y)-\mathbb{H}(Y|X)" /> 
+    - <img src="https://latex.codecogs.com/gif.latex?\mathbb{I}(X;Y)=\mathbb{KL}(p(X,Y)||p(X)p(Y))=\mathbb{H}(X)-\mathbb{X}(X|Y)=\mathbb{H}(Y)-\mathbb{H}(Y|X)" /> 
+- PMI pointwise mutual information
+    - <img src="https://latex.codecogs.com/gif.latex?\mathbb{PMI}(x,y)=\log\frac{p(x,y)}{p(x)p(y)}=\log\frac{p(x|y)}{p(x)}=\log\frac{p(y|x)}{p(y)}" /> 
