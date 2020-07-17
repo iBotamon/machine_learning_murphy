@@ -64,5 +64,6 @@
 
 # 2-8. Information theory
 - エントロピー Entropy
+    - <img src="https://latex.codecogs.com/gif.latex?\mathbb{H}(X)=-\sum_{k}p(X=k)\log(p(X=k))" /> 
 - KLダイバージェンス KL divergence
 - 相互情報量 mutual information
