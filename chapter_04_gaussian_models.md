@@ -28,8 +28,27 @@
 - 
 
 ## 4-3-3. Information form
-- 
+- ガウス分布のmoment parametersは<img src="https://latex.codecogs.com/gif.latex?\boldsymbol{\mu}" />, <img src="https://latex.codecogs.com/gif.latex?\boldsymbol{\Sigma}" />.
+- しかし, canonical parameters あるいは natural parameters として, これらを次のように表現することもできる.
+    - <img src="https://latex.codecogs.com/gif.latex?\boldsymbol{\Lambda}=\boldsymbol{\Sigma}^{-1}" /> (これは精度としてPRMLにも登場している)
+    - <img src="https://latex.codecogs.com/gif.latex?\boldsymbol{\xi}=\boldsymbol{\Sigma}^{-1}\boldsymbol{\mu}" /> (これは初めて見た)
+- これらを用いると, ガウス分布を information form によって表記できる:
+    - <img src="https://latex.codecogs.com/gif.latex?\mathcal{N}_{c}(\mathbf{x}|\boldsymbol{\xi},\boldsymbol{\Lambda})=(2\pi)^{-D/2}|\boldsymbol{\Lambda}|^{\frac{1}{2}}\exp\left(-\frac{1}{2}(\mathbf{x}^{T}\boldsymbol{\Lambda}\mathbf{x}+\boldsymbol{\xi}^{T}\boldsymbol{\Lambda}^{-1}\boldsymbol{\xi}-2\mathbf{x}^{T}\boldsymbol{\xi})\right)" /> 
+- こうすると, 分割したガウス分布の条件付き確率は<img src="https://latex.codecogs.com/gif.latex?\mathcal{N}_{c}" />を用いて簡略に表記することができる.
+- 周辺化は本来のmoment formで表記するほうが簡潔になり, 条件付き確率にするにはinformation formで表記するほうが簡潔になる.
 ### 4-3-4-1. シューア補行列による, 分割した行列の逆行列
+### 4-3-4-2. 逆行列に関する補題
 
+# 4-4. 線形ガウスモデル
+## 4-4-1.
+## 4-4-2.
+### 4-4-2-3. ノイズのあるデータ点を補完する-
+## 4-4-3. 
 
-## 4-4. 線形ガウスモデル-
+# 4-5. ウィシャート分布
+## 4-5-1. 逆ウィシャート分布
+
+# 4-6. ガウス分布のパラメータ推定
+## 4-6-1. ベイズ推定における平均の事後確率
+## 4-6-2. ベイズ推定における分散の事後確率
+
