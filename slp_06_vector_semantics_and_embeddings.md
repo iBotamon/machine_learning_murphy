@@ -45,6 +45,14 @@
   - <img src="https://latex.codecogs.com/gif.latex?\mathrm{PPMI}_{\alpha}(w,c)=max(\log_{2}\frac{P(w,c)}{P(w)P_{\alpha}(c)},0)" />
 
 # 6-8. Word2vec
+- skip-gram with negative sampling (SGNS)
+  - ターゲットとコンテキストの組が与えられたときに, 本当にその組が正しいかどうかを二値分類する
+- continuous bag-of-words (CBOW)
+  - コンテキストからターゲットを予測する
+- negative samplingをどうするか?
+  - コーパスには正例しかないので, 負例について学習できない
+  - そこで, 負例を適当にサンプリングして作る
+  - 負例は単語の出現頻度を0.75乗して丸めた確率分布
 
 # 6-9. Visualizing Embeddings
 
@@ -53,5 +61,11 @@
 # 6-11. Bias and Embeddings
 
 # 6-12. Evaluating Vector Models
+- どのように評価するか?
+  - WordSim-353 dataset
+  - SimLex-999 datasert
+  - TOEFL dataset
+  - SCWS (Stanford Contextual Word Similarity) dataset
+  - WiC (Word-in-Context) dataset
 
 # 6-13. Summary
