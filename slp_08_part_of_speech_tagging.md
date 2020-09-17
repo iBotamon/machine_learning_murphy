@@ -94,10 +94,14 @@
 - Viterbi Algorithm
 
 ## 8-4-6. Working through an example
-
+- ...
 
 ## 8-4-7. Extending the HMM Algorithm to Trigrams
+- ...
+
 ## 8-4-8. Beam Search
+- 状態のとりうる種類が多いときは素のViterbiアルゴリズムは遅くなる
+
 ## 8-4-9. Unknown Words
 # 8-5. Maximum Entropy Markov Models
 # 8-6. Bidirectionality
