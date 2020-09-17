@@ -2,11 +2,19 @@
 - POS taggingは大まかに2つにわかれる
   - closed class types: 構成要素がほとんど変化しないもの. たとえば前置詞など. 新しい前置詞が登場することはほぼないため.
     - 前置詞 perpositions
+    - 不変化詞 particles
     - 冠詞 determiners
     - 接続詞 conjunctions
     - 代名詞 pronouns
     - 助動詞 auxiliary verbs
+      - コピュラ copula (be動詞など)
+      - modal verb: do, haveなど
     - 数詞 numerals
+    - 間投詞 interjections
+    - 否定詞 negatives
+    - 丁寧語 politeness markers
+    - 挨拶 greetings
+    - 存在のthere existential there
   - open class types: 構成要素が新しく登場しうるもの. 英語では名詞, 動詞, 形容詞, 副詞の4つ.
     - 名詞はさらに proper nouns, common nouns にわかれる
       - proper nouns: 何らかのentityの名前(人名や地名など)
@@ -23,6 +31,18 @@
       - temporal adverb: それが起こった日時を示す
 
 # 8-2. The Penn Treebank Part-of-Speech Tagset
+- POS taggingのための有名なコーパス
+  - Brown corpus
+    - 500文から作成されている
+    - POS tagは87種類定義されている
+  - PTB
+    - 1993年に発表
+    - POS tagは45種類定義されている (Brown tag setから減らされている)
+  - WSJ
+    - 1億語からなる
+  - Universal Dependencies project
+    - 2016年発表
+
 # 8-3. Part-of-Speech Tagging
 # 8-4. HMM Part-of-Speech Tagging
 ## 8-4-1. Markov Chains
