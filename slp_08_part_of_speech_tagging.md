@@ -44,6 +44,14 @@
     - 2016年発表
 
 # 8-3. Part-of-Speech Tagging
+- POS taggingは実質的には語義曖昧性解消に近い
+- つまり複数の品詞をとりうる単語に対して正しく品詞タグを付与できるかどうかが問題となる
+  - 複数の品詞をとりうる単語は, 語彙としては14-15%にすぎないが, 高頻度語が多いので単語としては55-67%を占めている
+  - これはWSJでもBrownでも同じ
+- WSJコーパスにおけるモデルの性能
+  - most-frequent-tag baseline: accuracy 92.34%
+  - HMM, MEMM, NN, ルールベースなど: accuracy 97%
+
 # 8-4. HMM Part-of-Speech Tagging
 ## 8-4-1. Markov Chains
 ## 8-4-2. The Hidden Markov Model
