@@ -51,6 +51,11 @@
     - NAISTテキストコーパス
       - 京都大学テキストコーパスに述語項構造と照応関係がアノテーションされている
     - BCCWJコーパス
+      - 現代日本語書き言葉均衡コーパス
+      - 書籍, 新聞, ブログ, 白書などから作成している
+      - 約1億語からなる
+      - すべてのテキストが形態素解析されている
+      - 一部のテキストについては単語, 文節係り受け, 並列構造, 節境界などの構文情報が付与されている
 
 # 8-3. Part-of-Speech Tagging
 - POS taggingは実質的には語義曖昧性解消に近い
@@ -63,11 +68,34 @@
 
 # 8-4. HMM Part-of-Speech Tagging
 ## 8-4-1. Markov Chains
+- マルコフ仮定 Markov Assumption
+  - 次の状態は直前の状態だけに依存する
+- マルコフ連鎖は状態をノード, 遷移をエッジとしたグラフで表現できる
+  - エッジには確率を付与できる
+
 ## 8-4-2. The Hidden Markov Model
+- HMMはマルコフ連鎖の拡張
+- 隠れ状態は, 直前の隠れ状態にのみ依存する
+- 出力状態は, 同時点での隠れ状態にのみ依存する
+
 ## 8-4-3. The components of an HMM tagger
+- まず品詞の遷移確率 transition probability をカウントベースで求める:
+  - P(t_i | t_(i-1)) = C(t_(i-1), t_i) / C(t_(i-1))
+- 次に品詞を条件とする単語の条件付き確率である出力確率 emission probability をカウントベースで求める:
+  - P(w_i | t_i) = C(t_i, w_i) / C(t_i)
+- このようにして遷移確率の行列A, 出力確率の行列Bを求める
+
 ## 8-4-4. HMM tagging as decoding
+- HMMにおいて, 2つの仮定をおくと, 推論は遷移確率と出力確率の積によって求められる
+  - 仮定1: 単語は品詞だけに依存して決定される
+  - 仮定2: bigram assumption: 品詞は直前の品詞だけに依存する
+
 ## 8-4-5. The Viterbi Algorithm
+- Viterbi Algorithm
+
 ## 8-4-6. Working through an example
+
+
 ## 8-4-7. Extending the HMM Algorithm to Trigrams
 ## 8-4-8. Beam Search
 ## 8-4-9. Unknown Words
