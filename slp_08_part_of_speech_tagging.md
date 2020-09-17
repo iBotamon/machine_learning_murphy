@@ -32,16 +32,25 @@
 
 # 8-2. The Penn Treebank Part-of-Speech Tagset
 - POS taggingのための有名なコーパス
-  - Brown corpus
-    - 500文から作成されている
-    - POS tagは87種類定義されている
-  - PTB
-    - 1993年に発表
-    - POS tagは45種類定義されている (Brown tag setから減らされている)
-  - WSJ
-    - 1億語からなる
-  - Universal Dependencies project
-    - 2016年発表
+  - 英語
+    - Brown corpus
+      - 500文から作成されている
+      - POS tagは87種類定義されている
+    - PTB
+      - 1993年に発表
+      - POS tagは45種類定義されている (Brown tag setから減らされている)
+    - WSJ
+      - 1億語からなる
+    - Universal Dependencies project
+      - 2016年発表
+  - ちなみに日本語では?
+    - 京都大学テキストコーパス
+      - 毎日新聞のテキスト4万文に形態素と構文情報が付与されている
+      - 形態素の区切り, 品詞, よみ, 原形, 活用型, 活用形など
+      - 文節の区切り, 文節間の係り受けが付与されている
+    - NAISTテキストコーパス
+      - 京都大学テキストコーパスに述語項構造と照応関係がアノテーションされている
+    - BCCWJコーパス
 
 # 8-3. Part-of-Speech Tagging
 - POS taggingは実質的には語義曖昧性解消に近い
