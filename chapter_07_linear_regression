@@ -1,0 +1,7 @@
+# 7-1. Introduction
+
+# 7-2. Model Specification
+- ガウスノイズを仮定したとき, スカラーに対する線形回帰をここでは考える
+
+# 7-3. Maximum Likelihood Estimation (least squares)
+- ガウスノイズを仮定すると, 最尤推定, 最小二乗法, 幾何学的な考察 (基底ベクトルの張る部分空間上で正解ともっとも近くなる予測点を求める) のどれからスタートしても同じ結論が得られる
