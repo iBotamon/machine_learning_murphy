@@ -5,3 +5,6 @@
 
 # 7-3. Maximum Likelihood Estimation (least squares)
 - ガウスノイズを仮定すると, 最尤推定, 最小二乗法, 幾何学的な考察 (基底ベクトルの張る部分空間上で正解ともっとも近くなる予測点を求める) のどれからスタートしても同じ結論が得られる
+
+# 7.4 Robust Linear Regression
+- 
